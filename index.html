@@ -9,35 +9,56 @@
     <link rel="stylesheet" href="dist/output.css">
 </head>
 <body>
-    <header>
-        <div>
-            <div class="w-full bg-slate-600 h-[88px] flex justify-around" >
-                <div>
-                    <div>
-                        <img src="assets/logo/Bitoid-logo.svg" alt="Bitoid Logo">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <ul class="flex xl:pl-[38px]">
-                            <li class="xl:mx-[42px]">Services</li>
-                            <li class="xl:mx-[42px]">Projects</li>
-                            <li class="xl:mx-[42px]">Clients</li>
-                            <li class="xl:mx-[42px]">Our Team</li>
-                            <li class="xl:mx-[42px]">Careers</li>
-                            <li class="xl:mx-[42px]">Bootcamp</li>
-                        </ul>
-                    </div>
-                </div>
-                <div>
-                    <div class="border-2 border-black border-solid xl:w-[115px] xl:h-[39px] flex">
-                        <div>dsaf</div>
-                        <div>dsf</div>
-                    </div>
+    <header class="h-screen items-center overflow-x-hidden">
+        <div class="absolute left-0 xl:top-[88px]">
+            <img class="w-screen" src="assets/galerry/home.svg" alt="Galerry">
+        </div>
+        <div class="header-top relative left-0 top-0 flex items-center justify-between w-full h-[90px] gap-5 p-5 md:fixed lg:px-11 lg:py-6" style="top: 0px; position: fixed; z-index: 9999;">
+            <a href="/">
+                <img class="w-[70px] h-[70px]" src="assets/logo/Bitoid-logo.svg" alt="Bitoid Logo">
+            </a>
+            <div class="burger-menu absolute px-7 pb-16 pt-20 left-0 top-full w-full min-h-[calc(100vh-82px)] max-h-[calc(100vh-82px)] overflow-auto bg-white md:top-0 md:p-0 md:min-h-fit md:overflow-visible md:bg-transparent md:relative flex items-center md:w-[80%] h-full">
+                <nav class=" md:block md:mr-10 md:h-full md:w-fit">
+                    <ul class="flex flex-col items-start p-4 gap-10 text-[22px] h-full md:items-center md:justify-between md:text-base md:gap-5 md:p-0 md:flex-row lg:gap-12">
+                        <li class="md:h-full flex justify-center items-center"><a class="hover:text-darkOrange duration-300 ease-out hover:text-mainRed" href="#">Services</a></li>
+                        <li class="md:h-full flex justify-center items-center"><a class="hover:text-darkOrange duration-300 ease-out hover:text-mainRed" href="#">Projects</a></li>
+                        <li class="md:h-full flex justify-center items-center"><a class="hover:text-darkOrange duration-300 ease-out hover:text-mainRed" href="#">Clients</a></li>
+                        <li class="md:h-full flex justify-center items-center"><a class="hover:text-darkOrange duration-300 ease-out hover:text-mainRed" href="#">Our Team</a></li>
+                        <li class="md:h-full flex justify-center items-center"><a class="hover:text-darkOrange duration-300 ease-out hover:text-mainRed" href="#">Careers</a></li>
+                        <li class="md:h-full flex justify-center items-center"><a class="hover:text-darkOrange duration-300 ease-out hover:text-mainRed" href="#">Bootcamp</a></li>
+                    </ul>
+                </nav>
+                <div class="w-[195px] mt-5 md:absolute md:right-0 justify-self-end bg-white h-[50px] flex items-center md:mt-0 md:justify-end">
+                    <div class="m-auto border-2 border-black border-solid xl:w-[195px] xl:h-[59px]">
+                        <div class="absolute z-10 flex" >
+                            <div class="flex xl:w-[195px] xl:h-[59px] text-darkOrange text-lg">
+                                <span class="m-auto -translate-y-1">
+                                    Get quotation
+                                </span>
+                            </div>
+                        </div>
+                        <div class="w-full h-full flex justify-between">
+                            <div class="w-[47%] bg-white -translate-y-1"></div>
+                            <div class="w-[47%] bg-white translate-y-1"></div>
+                        </div>   
+                    </div> 
                 </div>
             </div>
+            <!-- <button onclick="burgerMenu()" class="hamburger md:hidden">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button> -->
+
         </div>
+        <!-- <h1 class="w-2/3 absolute -z-10 top-1/2 left-4 -translate-y-1/2 flex flex-col gap-7 text-white text-[35px] tracking-[1.5px] leading-normal hyphens-manual md:gap-9 md:text-[70px] md:left-11 md:leading-tight md:tracking-[3px]">
+            <span class="text-xs md:text-base">Willkommen bei BKSI</span>
+            Ingenieurg­esellschaft für Beratung &amp; Planung im Bauwesen
+        </h1> -->
+        <!-- <img class="absolute bottom-9 left-1/2 -translate-x-1/2" src="./assets/Bilder/Arrows&amp;Navigation/arrow-header.svg" alt="arrow down"> -->
     </header>
-    
+
+
+     
 </body>
 </html>

@@ -12,7 +12,10 @@ module.exports = {
       'xl': '1366px',
     },
     extend: {
-      colors: {},
+      colors: {
+        "mainBlue": "#190F2E",
+        "darkOrange": "#E85B26",
+      },
     },
   },
   plugins: [],
