@@ -550,3 +550,96 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.m-auto {
+  margin: auto;
+}
+
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.mx-\[26px\] {
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-\[88px\] {
+  height: 88px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[133px\] {
+  height: 133px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+}
+
+.bg-slate-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+.pl-\[38px\] {
+  padding-left: 38px;
+}
+
+@media (min-width: 1366px) {
+  .xl\:mx-\[46px\] {
+    margin-left: 46px;
+    margin-right: 46px;
+  }
+
+  .xl\:mx-\[42px\] {
+    margin-left: 42px;
+    margin-right: 42px;
+  }
+
+  .xl\:h-\[39px\] {
+    height: 39px;
+  }
+
+  .xl\:w-\[115px\] {
+    width: 115px;
+  }
+
+  .xl\:pl-\[38px\] {
+    padding-left: 38px;
+  }
+}
