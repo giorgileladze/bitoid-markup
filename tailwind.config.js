@@ -13,8 +13,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        "mainBlue": "#190F2E",
-        "darkOrange": "#E85B26",
+        "mainBlack": "#190F2E",
+        "mainPurple-900": "#573399",
+        "mainPurple-600": "#D0C2EB",
+        "mainPurple-300": "#E8E0F5",
       },
     },
   },
